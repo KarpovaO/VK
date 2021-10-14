@@ -2,7 +2,9 @@ package domain;
 
 public class Share {
     private int count;
-    private int ownerId;
+    private int userReposted;
+    // private int ownerId;
+
 
     public int getCount() {
         return count;
@@ -12,11 +14,11 @@ public class Share {
         this.count = count;
     }
 
-    public int getOwnerId() {
-        return ownerId;
+    public int getUserReposted() {
+        return userReposted;
     }
 
-    public void setOwnerId(int ownerId) {
-        this.ownerId = ownerId;
+    public void setUserReposted(int userReposted) {
+        this.userReposted = userReposted;
     }
 }

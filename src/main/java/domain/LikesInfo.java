@@ -2,21 +2,41 @@ package domain;
 
 public class LikesInfo {
     private int count;
-    private int ownerId;
+    private int userLikes;
+    private int canLike;
+    private int canPublish;
+    // private int ownerId;
+
 
     public int getCount() {
         return count;
-    }
-
-    public int getOwnerId() {
-        return ownerId;
     }
 
     public void setCount(int count) {
         this.count = count;
     }
 
-    public void setOwnerId(int ownerId) {
-        this.ownerId = ownerId;
+    public int getUserLikes() {
+        return userLikes;
+    }
+
+    public void setUserLikes(int userLikes) {
+        this.userLikes = userLikes;
+    }
+
+    public int getCanLike() {
+        return canLike;
+    }
+
+    public void setCanLike(int canLike) {
+        this.canLike = canLike;
+    }
+
+    public int getCanPublish() {
+        return canPublish;
+    }
+
+    public void setCanPublish(int canPublish) {
+        this.canPublish = canPublish;
     }
 }
